@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+body {
+    background-color: #5D534A;
+}
+.painel {
+    display: flex;
+    gap: 5%;
+    padding: 3%;
+    
+    
+}
+.container {
+    display: flex;
+    width: 300pt;
+    height: 400pt;
+    border-radius: 15pt;
+    flex-direction: column;
+ 
+    
+}
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tasks {
+    display: flex;
+    margin: 10pt;
+    flex-direction: row;
+    width: 280pt;
+    height: 50pt;
+    border-radius: 15pt;
+    background-color: rgba(85, 85, 85, 0.11);
+
+
+    
+}
+.title {
+    display: flex;
+    justify-content: center;
+    border-bottom-width: 2pt;
+    border-bottom-color: black;  
+    border-bottom-style: solid;
+    
+    border-top-right-radius: 15pt;
+    border-top-left-radius: 15pt;
+}
+#title-do {
+    background-color: #ffcac8;
+}
+#title-doing {
+    background-color: #ffecb6;
+}
+#title-done {
+    background-color: #c0bcae;
+}
+h1 {
+    font-size: 15pt;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#title-tesks {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12pt;
+    margin-left: 10pt;
+}
+
+#do {
+    background-color: #F7DAD9;
+}
+
+#doing {
+    background-color: #FFF5DA;
+}
+
+#done {
+    background-color: #D6D2C4;
+}
+
+#tasks-doing {
+    display: flex;
+    align-items: center;
+    margin-left: 20pt;
+}
+

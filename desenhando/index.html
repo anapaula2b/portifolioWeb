@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacina</title>
+    <style>
+        .seringa {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .retangulo {
+            background-color: #C1CDCD;
+            width: 300pt;
+            height: 150pt;
+            margin-bottom: 30px;
+        }
+        .texto {
+            display: flex;
+            padding: 1%;
+            gap: 1px;
+
+
+        }
+        .linhas {
+            display: flex;
+            gap: 17.9pt;
+            align-items: center;
+        }
+        .linha {
+            width: 2px;
+            height: 40px;
+            background-color: black;
+        }
+        #linha-maior {
+            width: 2px;
+            height: 60px;
+            background-color: black;
+        }
+        #tubo {
+            border-radius: 35pt;
+            width: 420pt;
+            height: 110pt;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            background-color: #40E0D0;
+            border-width: 10pt;
+            border-style: solid;
+            border-color: #C1CDCD;
+        }
+
+        #agulha {
+            width: 100pt;
+            height: 10pt;
+            border-bottom-right-radius: 40pt;
+        }
+        #puxador-1 {
+            height: 110pt;
+            width: 20pt;
+            border-radius: 40pt;
+        }
+        #puxador-2 {
+            width: 60pt;
+            height: 30pt;
+        }
+
+        #ano {
+            writing-mode: vertical-rl;
+            
+        }
+
+      
+    </style>
+</head>
+<body>
+   <div class="seringa">
+        <div class="retangulo" id="puxador-1"></div>
+        <div class="retangulo" id="puxador-2"></div>
+        <div class="retangulo" id="tubo">
+            <div class="linhas">
+                <div class="linha" id="linha-maior"></div>
+                <div class="linha"></div>
+                <div class="linha" id="linha-maior"></div>
+                <div class="linha"></div>
+                <div class="linha" id="linha-maior"></div>
+                <div class="linha"></div>
+                <div class="linha" id="linha-maior"></div>
+                <div class="linha"></div>
+                <div class="linha" id="linha-maior"></div>
+                <div class="linha"></div>
+                <div class="linha" id="linha-maior"></div>
+                <div class="linha"></div>
+                <div class="linha" id="linha-maior"></div>
+                <div class="linha"></div>
+                <div class="linha" id="linha-maior"></div>
+                <div class="linha"></div>
+                <div class="linha" id="linha-maior"></div>
+                <div class="linha"></div>
+                <div class="linha" id="linha-maior"></div>
+                <div class="linha"></div>
+                <div class="linha" id="linha-maior"></div>
+                <div class="linha" style="background-color: transparent;"></div>
+            </div>
+            
+            <div class="texto" >
+                <p id="ano" onclick="">1771</p>
+                <p id="ano">1804</p>
+                <p id="ano">1927</p>
+                <p id="ano">1930</p>
+                <p id="ano">1942</p>
+                <p id="ano">1955</p>
+                <p id="ano">1980</p>
+                <p id="ano">1990</p>
+                <p id="ano">1995</p>
+                <p id="ano">1999</p>
+                <p id="ano">2021</p>
+            </div>
+        </div>
+        <div class="retangulo" id="agulha"></div>
+        
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>

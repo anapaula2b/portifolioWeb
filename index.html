@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+    <div class="container" id="form">
+        
+        <form method="post" action="mensagens.html">
+            <div class="mb-3">
+                
+                
+                <div class="title">
+                    <h1>Acesso ao sistema</h1>
+                    
+                </div>
+
+                <label for ="in_nome_usuario"class="form-label">Nome do Usuário</label> 
+                <input id = "in_nome_usuario" class="form-control" placeholder="Ex: ana_paula"type="text" name="nome_usuario">
+                
+                <label for = "in_senha" class="form-label">Senha </label> 
+                <input id = "in_senha" class="form-control" type="password" name="senha">
+
+                <label for = "in_email"class="form-label">E-mail</label> 
+                <input id="formFile" class="form-control" placeholder="Ex: ana@gmail.com" type="text" name="email_usuario">
+
+                <label for ="in_telefone"class="form-label">Telefone</label> 
+                <input id="in_telefone" class="form-control" placeholder="Ex: 83877..." type="int" name="numero_telefone">
+                
+                <label for = "in_ano" class="form-label">Ano De Nascimento</label> 
+                <input id ="in_ano" class = "form-control "type="number" name="data_nascimento"min ="1900" max="2021"></p>
+            
+                <div class="col-12">
+                    
+                </div>
+                <button type="submit" class="btn-btn-primary">Sign in</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

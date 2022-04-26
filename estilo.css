@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&family=Staatliches&display=swap');
+
+body {
+    display: flex;
+    /* background: rgb(233,166,166);
+    background: linear-gradient(90deg, rgba(233,166,166,1) 0%, rgba(134,72,121,1) 35%, rgba(63,51,81,1) 100%); */
+    background-color: rgba(63,51,81,1) ;
+    justify-content: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255);
+    border-radius: 30pt;
+    justify-content: space-around;
+    width: 420pt;
+    height: 420pt;
+
+    
+
+
+}
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 20pt;
+    
+}
+.col-12 {
+    display: flex;
+    align-items: center;
+}
+.title {
+    font-family: 'Staatliches', cursive;
+    margin-top: 0%;
+    color: #1F1D36;
+    display: flex;
+    align-items: center;
+}
+.form-label {
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
+    color: #1F1D36;
+    margin-inline: 40pt;
+}
+
+.form-control {
+
+    height: 30pt;
+    border-radius: 10pt;
+    font-family: 'Rokkitt', serif;
+    border-width: 0%;
+    border-color: transparent;
+    background-color: rgba(63,51,81,0.7);
+    margin-inline: 40pt;
+
+    
+}
+
+.btn-btn-primary {
+    color: white;
+    background-color: #1F1D36;
+    border-radius: 10pt;
+    height: 30pt;
+    width: 120pt;
+    border-color: transparent;
+    
+}
